@@ -75,7 +75,7 @@ export default function Gallery() {
         {/* Masonry Columns Layout */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
           {galleryImages.map((image, idx) => {
-            const imgSrc = `https://www.instagram.com/p/${image.shortcode}/media/?size=l`;
+            const imgSrc = `/images/${image.shortcode}.jpg`;
             return (
               <div
                 key={image.shortcode}
@@ -134,9 +134,8 @@ export default function Gallery() {
             className="relative max-w-4xl max-h-[85vh] flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`https://www.instagram.com/p/${galleryImages[selectedIdx].shortcode}/media/?size=l`}
+              src={`/images/${galleryImages[selectedIdx].shortcode}.jpg`}
               alt={galleryImages[selectedIdx].title}
               className="max-w-full max-h-[75vh] object-contain rounded-2xl shadow-2xl border border-white/10"
             />

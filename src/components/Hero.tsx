@@ -3,8 +3,7 @@
 import Image from "next/image";
 
 export default function Hero() {
-  // Using the first Instagram post URL as the main hero photo
-  const heroImageSrc = "https://www.instagram.com/p/DYWuOHYI1mm/media/?size=l";
+  const heroImageSrc = "/images/DYWuOHYI1mm.jpg";
 
   return (
     <section className="relative min-h-screen flex items-center pt-24 md:pt-28 pb-16 bg-gradient-to-tr from-gold-50 via-rose-gold-light/10 to-gold-100/40 overflow-hidden">

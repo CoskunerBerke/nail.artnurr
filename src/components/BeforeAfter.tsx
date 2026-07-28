@@ -8,9 +8,9 @@ export default function BeforeAfter() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Before image (natural/prior state)
-  const beforeImage = "https://www.instagram.com/p/DSaQTUwCKaN/media/?size=l";
+  const beforeImage = "/images/DSaQTUwCKaN.jpg";
   // After image (final premium nail art)
-  const afterImage = "https://www.instagram.com/p/DYWuOHYI1mm/media/?size=l";
+  const afterImage = "/images/DYWuOHYI1mm.jpg";
 
   const handleMove = useCallback((clientX: number) => {
     if (!containerRef.current) return;

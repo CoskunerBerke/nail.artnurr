@@ -1,7 +1,7 @@
 "use client";
 
 export default function About() {
-  const aboutImageSrc = "https://www.instagram.com/p/DYVPS6nRSdV/media/?size=l";
+  const aboutImageSrc = "/images/DYVPS6nRSdV.jpg";
 
   return (
     <section id="hakkimizda" className="py-24 bg-white relative overflow-hidden">
