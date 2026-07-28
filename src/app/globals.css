@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-playfair), serif;
+  --font-sans: var(--font-outfit), sans-serif;
+
+  /* Luxury Rose Gold & Nude Palette */
+  --color-gold-50: #fdfbf7;
+  --color-gold-100: #f6ebd9;
+  --color-gold-200: #ebd8c8;
+  --color-gold-300: #dfc1aa;
+  --color-gold-400: #cca085;
+  --color-gold-500: #ba8261;
+  --color-gold-600: #aa6e4f;
+  
+  --color-rose-gold-light: #faf0f0;
+  --color-rose-gold-medium: #e8c5c8;
+  --color-rose-gold: #b76e79;
+  --color-rose-gold-dark: #8c4b55;
+  --color-rose-gold-deep: #4a282d;
+
+  --color-charcoal-light: #2d2421;
+  --color-charcoal: #1f1a17;
+  --color-charcoal-dark: #120f0d;
+
+  --animate-marquee: marquee 30s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+}
+
+:root {
+  --background: #fdfbf7;
+  --foreground: #2d2421;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utility */
+.glass-nav {
+  background: rgba(253, 251, 247, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(183, 110, 121, 0.15);
+}
+
+/* Styled Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfbf7;
+}
+::-webkit-scrollbar-thumb {
+  background: #e8c5c8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b76e79;
+}
