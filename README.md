@@ -21,11 +21,11 @@ A Turkish-language, single-page website for Nail Art Nurr, a salon offering nail
 
 - **Sticky navbar** with a glass effect on scroll, mobile menu and a WhatsApp "Randevu Al" (book an appointment) button
 - **Hero** section introducing the salon, with anchors to services and contact
-- **About** section highlighting hygiene and sterilisation, custom designs and product quality
+- **About** section highlighting hygiene and sterilisation, custom designs and premium product brands
 - **Services & price list** — 6 services: nail extensions (*protez tırnak*), nail art, gel polish (*kalıcı oje*), gel strengthening, medical pedicure and manicure
 - **Before / after slider** — interactive comparison that works with mouse and touch dragging
 - **Portfolio gallery** with category labels and a lightbox (arrow keys to navigate, Esc to close)
-- **Review marquee** (`ReviewRiver`) — an infinitely scrolling strip of customer comments
+- **Review marquee** (`ReviewRiver`) — an infinitely scrolling strip of review cards (text is hard-coded in the component)
 - **Contact** — opening hours, click-to-call, WhatsApp link, street address and an embedded Google Map
 - **SEO** — Turkish metadata and keywords, Open Graph tags, `robots.txt` and `sitemap.xml` generated with App Router metadata routes
 
@@ -106,11 +106,11 @@ Adana Çukurova, Huzurevleri Mahallesi'nde protez tırnak, kalıcı oje, nail ar
 
 - Kaydırınca buzlu cam efektli sabit menü, mobil menü ve WhatsApp "Randevu Al" butonu
 - Salonu tanıtan **hero** bölümü
-- Hijyen ve sterilizasyon, kişiye özel tasarım ve ürün kalitesini anlatan **Hakkımızda** bölümü
+- Hijyen ve sterilizasyon, kişiye özel tasarım ve kaliteli markaları öne çıkaran **Hakkımızda** bölümü
 - **Hizmetler ve fiyat listesi** — protez tırnak, nail art, kalıcı oje, jel güçlendirme, medikal pedikür ve manikür
 - Fare ve dokunmatik ile sürüklenebilen **öncesi / sonrası** karşılaştırma slider'ı
 - Kategori etiketli **galeri** ve lightbox (ok tuşlarıyla gezinme, Esc ile kapatma)
-- Sonsuz kayan **müşteri yorumları** şeridi
+- Sonsuz kayan **yorum kartları** şeridi (metinler bileşen içinde sabit yazılıdır)
 - **İletişim** — çalışma saatleri, tıkla-ara, WhatsApp, açık adres ve gömülü Google Haritası
 - **SEO** — Türkçe meta etiketler, Open Graph, `robots.txt` ve `sitemap.xml`
 
